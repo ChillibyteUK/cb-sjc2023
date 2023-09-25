@@ -1,0 +1,36 @@
+.hero {
+    min-height: 500px;
+    position: relative;
+    isolation: isolate; 
+    display: flex;
+    margin-bottom: -2px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url(../img/hero-overlay.svg);
+        background-size: auto 500px;
+        background-position: center;
+    }
+
+    .container-xl {
+        isolation: isolate;
+        position: relative;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: var(--fs-900);
+        font-weight: var(--fw-400);
+        line-height: 1.1;
+        text-align: start;
+        text-wrap: balance;
+        padding-left: 1rem;
+    }
+
+}
