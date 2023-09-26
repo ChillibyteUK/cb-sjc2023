@@ -18,7 +18,7 @@ function setupSplits() {
     gsap.set(title.split.chars, {
       opacity: 0,
       x: "10",
-      // y: "90%",
+      y: "0",
       // rotateX: "-40deg",
     });
     gsap.set(title, {
