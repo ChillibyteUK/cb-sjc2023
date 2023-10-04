@@ -4,13 +4,14 @@
   --col-primary-400: hsl(var(--hsl-primary-400));
   --hsl-secondary-400: 206 100% 40%;
   --col-secondary-400: hsl(var(--hsl-secondary-400));
-  --hsl-accent-400: 31 100% 50%;
+  --hsl-accent-400: 47 81% 56%;
   --col-accent-400: hsl(var(--hsl-accent-400));
   --col-grey-900: #444;
   --col-grey-800: #777;
   --col-grey-600: #e8e8e8;
   --col-grey-400: #e9eef0;
   --col-grey-200: #f1f4f5;
+  --body-color: #111;
   --h-top: 122px;
   --fw-300: 300;
   --fw-400: 400;
@@ -20986,6 +20987,7 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
     background-color: var(--col-accent-400);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    color: var(--body-color);
   }
 }
 
@@ -21209,7 +21211,7 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
 }
 
 body {
-  color: #111;
+  color: var(--body-color);
 }
 
 a {

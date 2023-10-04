@@ -12,7 +12,10 @@ $col-secondary: #e9988e;
     --col-secondary-400: hsl(var(--hsl-secondary-400));
 
     // --col-accent-400: #FF8400;
-    --hsl-accent-400: 31 100% 50%;
+    // --hsl-accent-400: 31 100% 50%;
+
+    // --col-accent-400: #EAC435;
+    --hsl-accent-400: 47 81% 56%;
     --col-accent-400: hsl(var(--hsl-accent-400));
 
 
@@ -22,6 +25,7 @@ $col-secondary: #e9988e;
     --col-grey-400: #e9eef0;
     --col-grey-200: #f1f4f5;
     
+    --body-color: #111;
 
     --h-top: 122px;
 
