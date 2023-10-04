@@ -8,14 +8,15 @@ $col-secondary: #e9988e;
     --col-primary-400: hsl(var(--hsl-primary-400));
     
     // --col-secondary-400: #0074CC;
-    --hsl-secondary-400: 206 100% 40%;
+    --hsl-secondary-400: 206 100% 30%;
     --col-secondary-400: hsl(var(--hsl-secondary-400));
 
-    // --col-accent-400: #FF8400;
+    // --col-accent-400: #FF8400; // orange
     // --hsl-accent-400: 31 100% 50%;
 
-    // --col-accent-400: #EAC435;
-    --hsl-accent-400: 47 81% 56%;
+    // --col-accent-400: #EAC435; // yellow
+    // --hsl-accent-400: 47 81% 56%;
+    --hsl-accent-400: 206 100% 60%;
     --col-accent-400: hsl(var(--hsl-accent-400));
 
 
