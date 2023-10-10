@@ -6,6 +6,7 @@
   --col-secondary-400: hsl(var(--hsl-secondary-400));
   --hsl-accent-400: 206 100% 60%;
   --col-accent-400: hsl(var(--hsl-accent-400));
+  --col-accent-100: hsl(var(--hsl-accent-400) / 0.2);
   --col-grey-900: #444;
   --col-grey-800: #777;
   --col-grey-600: #e8e8e8;
@@ -16,6 +17,8 @@
   --fw-300: 300;
   --fw-400: 400;
   --fw-700: 700;
+  --fs-100: clamp(0.5119rem, 0.4895rem + 0.112vw, 0.5763rem);
+  --fs-200: clamp(0.69rem, 0.66rem + 0.15vw, 0.78rem);
   --fs-200: clamp(0.69rem, 0.66rem + 0.15vw, 0.78rem);
   --fs-300: clamp(0.83rem, 0.80rem + 0.18vw, 0.94rem);
   --fs-400: clamp(1.00rem, 0.96rem + 0.22vw, 1.13rem);
@@ -20828,6 +20831,86 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   border-color: var(--col-secondary-400);
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   transform: translateY(3px);
+}
+
+.deal {
+  text-align: center;
+  border: 10px solid var(--col-primary-400);
+  padding: 1rem;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+.deal:hover {
+  border-color: var(--col-accent-400);
+  color: var(--col-primary-400);
+  background-color: var(--col-accent-100);
+}
+.deal__disclaimer {
+  font-size: var(--fs-100);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.deal__logo {
+  margin-bottom: 0.5rem;
+  width: 80px;
+  height: 80px;
+}
+.deal__intro {
+  font-size: var(--fs-200);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.deal__title {
+  text-transform: uppercase;
+  font-weight: var(--fw-700);
+  font-size: var(--fs-300);
+  padding-block: 0.5rem;
+}
+.deal__value {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-500);
+  color: var(--col-primary-400);
+  margin-bottom: 0.5rem;
+}
+.deal__description_pre {
+  font-size: var(--fs-200);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.deal__description {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-700);
+  margin-bottom: 0.5rem;
+}
+.deal__finance_pre {
+  font-size: var(--fs-200);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.deal__finance {
+  text-transform: uppercase;
+  font-weight: var(--fw-700);
+  font-size: var(--fs-300);
+  margin-bottom: 0.5rem;
+}
+.deal__date {
+  font-size: var(--fs-200);
+}
+@media (max-width: 992px) {
+  .deal__sidebar {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--col-primary-400);
+  }
+}
+@media (min-width: 992px) {
+  .deal__sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: var(--h-top);
+    border-right: 2px solid var(--col-primary-400);
+  }
 }
 
 .hero {

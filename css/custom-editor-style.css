@@ -6,6 +6,7 @@
   --col-secondary-400: hsl(var(--hsl-secondary-400));
   --hsl-accent-400: 206 100% 60%;
   --col-accent-400: hsl(var(--hsl-accent-400));
+  --col-accent-100: hsl(var(--hsl-accent-400) / 0.2);
   --col-grey-900: #444;
   --col-grey-800: #777;
   --col-grey-600: #e8e8e8;
@@ -16,6 +17,8 @@
   --fw-300: 300;
   --fw-400: 400;
   --fw-700: 700;
+  --fs-100: clamp(0.5119rem, 0.4895rem + 0.112vw, 0.5763rem);
+  --fs-200: clamp(0.69rem, 0.66rem + 0.15vw, 0.78rem);
   --fs-200: clamp(0.69rem, 0.66rem + 0.15vw, 0.78rem);
   --fs-300: clamp(0.83rem, 0.80rem + 0.18vw, 0.94rem);
   --fs-400: clamp(1.00rem, 0.96rem + 0.22vw, 1.13rem);
