@@ -1,6 +1,6 @@
 <?php
 $img = wp_get_attachment_image_url(get_field('background'), 'full');// ?? null;
-$class = $block['className'];
+$class = $block['className'] ?? null;
 ?>
 <section class="hero d-flex <?=$class?>" style="background-image:url(<?=$img?>)">
     <div class="container-xl d-flex flex-column justify-content-center">
