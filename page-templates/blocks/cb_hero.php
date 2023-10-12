@@ -9,6 +9,13 @@ $class = $block['className'] ?? null;
                 <h1 class="animtitle">
                     <?=get_field('title')?>
                 </h1>
+                <?php
+                if (get_field('subtitle')) {
+                    ?>
+                <div class="text-white" data-aos="fade"><?=get_field('subtitle')?></div>
+                    <?php
+                }
+                ?>
             </div>
         </div>
     </div>

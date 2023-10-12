@@ -41,6 +41,26 @@
             "append": ""
         },
         {
+            "key": "field_6527a20c50e93",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64d7cd565a04a",
             "label": "Background",
             "name": "background",
@@ -84,5 +104,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1695285971
+    "modified": 1697096214
 }
