@@ -21028,6 +21028,11 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   display: grid;
   grid-template-rows: auto 1.5rem;
 }
+.services_feature .card img {
+  height: 80px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
 .services_feature .card__link a {
   font-family: var(--ff-title);
   font-size: var(--fs-400);
@@ -21223,6 +21228,29 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   padding-bottom: 0.8rem;
   font-weight: var(--fw-700);
   text-wrap: balance;
+}
+
+.service_index__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.service_index__card {
+  text-align: center;
+  width: 180px;
+}
+.service_index__card img {
+  width: 100px;
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 0.5rem;
+}
+.service_index__card h3, .service_index__card .h3 {
+  transition: color var(--transition);
+}
+.service_index__card:hover h3, .service_index__card:hover .h3 {
+  color: var(--col-accent-400);
 }
 
 .wp-block-quote--cb {

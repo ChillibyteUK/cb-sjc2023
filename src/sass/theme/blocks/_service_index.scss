@@ -1,0 +1,27 @@
+.service_index {
+    &__grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    &__card {
+        text-align: center;
+        width: 180px;
+        img {
+            width: 100px;
+            display: block;
+            margin-inline: auto;
+            margin-bottom: 0.5rem;
+        }
+        h3 {
+            transition: color var(--transition);
+        }
+        &:hover {
+            h3 {
+                color: var(--col-accent-400);
+            }
+        }
+    }
+}

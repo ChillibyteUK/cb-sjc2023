@@ -83,6 +83,15 @@ function acf_blocks()
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_service_index',
+            'title'				=> __('CB Service Index'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_service_index.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
     }
 }
 add_action('acf/init', 'acf_blocks');
