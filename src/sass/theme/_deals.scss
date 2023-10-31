@@ -5,12 +5,12 @@
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    transition: border-color var(--transition), background-color var(--transition);
-    &:hover {
-        border-color: var(--col-accent-400);
-        color: var(--col-primary-400);
-        background-color: var(--col-accent-100);
-    }
+    // transition: border-color var(--transition), background-color var(--transition);
+    // &:hover {
+    //     border-color: var(--col-accent-400);
+    //     color: var(--col-primary-400);
+    //     background-color: var(--col-accent-100);
+    // }
     &__disclaimer {
         font-size: var(--fs-100);
         text-transform: uppercase;

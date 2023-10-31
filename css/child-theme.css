@@ -20840,12 +20840,6 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  transition: border-color var(--transition), background-color var(--transition);
-}
-.deal:hover {
-  border-color: var(--col-accent-400);
-  color: var(--col-primary-400);
-  background-color: var(--col-accent-100);
 }
 .deal__disclaimer {
   font-size: var(--fs-100);

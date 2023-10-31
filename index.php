@@ -15,7 +15,7 @@ $img = get_the_post_thumbnail_url(get_option( 'page_for_posts' ),'full');
         <div>
             <div class="preTitle text-white">Read our latest posts</div>
             <h1>
-                The Bettermove Blog
+                Blog
             </h1>
         </div>
     </div>

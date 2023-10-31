@@ -25,7 +25,7 @@ get_header();
         the_post();
         ?>
         <div class="col-md-6 col-lg-4">
-            <a class="deal" href="<?=get_the_permalink()?>">
+            <div class="deal" href="<?=get_the_permalink()?>">
                 <div class="deal__header">
                     <div class="deal__disclaimer">This announcement appears as a matter of record only</div>
                     <img class="deal__logo" src="<?=get_stylesheet_directory_uri()?>/img/sjc-logo.svg" alt="" width=100 height=100>
@@ -40,7 +40,7 @@ get_header();
                     <div class="deal__finance"><?=get_field('finance_detail')?></div>
                 </div>
                 <div class="deal__date"><?=get_field('deal_date')?></div>
-            </a>
+            </div>
         </div>
         <?php
     }
