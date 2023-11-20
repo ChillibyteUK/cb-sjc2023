@@ -20700,7 +20700,7 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   text-transform: uppercase;
   font-size: var(--fs-400);
   font-family: var(--ff-title);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
 @media (min-width: 992px) {
   #wrapperNavbar .nav-top {
@@ -21224,6 +21224,9 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
   text-wrap: balance;
 }
 
+.service_index {
+  background-color: var(--col-grey-600);
+}
 .service_index__grid {
   display: flex;
   flex-wrap: wrap;
@@ -21233,6 +21236,10 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
 .service_index__card {
   text-align: center;
   width: 180px;
+  border: 1px solid var(--col-primary-400);
+  background-color: white;
+  padding: 0.5rem;
+  transition: border var(--transition);
 }
 .service_index__card img {
   width: 100px;
@@ -21242,6 +21249,10 @@ h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, .h99
 }
 .service_index__card h3, .service_index__card .h3 {
   transition: color var(--transition);
+  font-size: var(--fs-600);
+}
+.service_index__card:hover {
+  border-color: var(--col-accent-400);
 }
 .service_index__card:hover h3, .service_index__card:hover .h3 {
   color: var(--col-accent-400);
