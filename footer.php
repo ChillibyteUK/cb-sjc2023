@@ -38,10 +38,9 @@ defined('ABSPATH') || exit;
     </div>
     <div class="colophon">
         <div class="container-xl">
-            <div>&copy; <?=date('Y')?> St James's Square Capital
+            <div>&copy; <?=date('Y')?> St James's Square Capital. Registered in England, no. 12401452
             </div>
             <div class="colophon__links">
-                <a href="/legal/">Legal Information</a> |
                 <a href="/privacy/">Privacy Policy</a> |
                 <a href="/cookies/">Cookie Preferences</a>
                 <a href="https://www.chillibyte.co.uk/" rel="nofollow noopener" target="_blank" class="cb"
