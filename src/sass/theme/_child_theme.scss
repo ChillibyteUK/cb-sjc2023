@@ -122,7 +122,7 @@ a.anchor {
     }
 }
 
-main ul:not(.slick-dots) {
+main ul:not(.slick-dots,.fa-ul) {
     list-style: none;
     padding-left: 1.5rem;
     li {

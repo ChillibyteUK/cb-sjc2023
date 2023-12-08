@@ -21411,14 +21411,14 @@ a.anchor {
   margin-right: 0.75rem;
 }
 
-main ul:not(.slick-dots) {
+main ul:not(.slick-dots, .fa-ul) {
   list-style: none;
   padding-left: 1.5rem;
 }
-main ul:not(.slick-dots) li {
+main ul:not(.slick-dots, .fa-ul) li {
   margin-bottom: 0.5rem;
 }
-main ul:not(.slick-dots) li::before {
+main ul:not(.slick-dots, .fa-ul) li::before {
   content: "■";
   color: var(--col-accent-400);
   display: inline-block;
