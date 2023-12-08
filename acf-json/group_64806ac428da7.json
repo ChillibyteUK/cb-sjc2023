@@ -292,6 +292,26 @@
             "max_size": "",
             "mime_types": "",
             "preview_size": "medium"
+        },
+        {
+            "key": "field_657330b676a1a",
+            "label": "Maps URL",
+            "name": "maps_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2482.118781385086!2d-0.1883595228726161!3d51.52938117181837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761aa71e88a181%3A0x55358d46dc123679!2s141A%20Randolph%20Ave.%2C%20London%20W9%201DN!5e0!3m2!1sen!2suk!4v1702047902803!5m2!1sen!2suk",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -312,5 +332,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696934534
+    "modified": 1702047983
 }
