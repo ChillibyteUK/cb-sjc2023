@@ -20,10 +20,7 @@ defined('ABSPATH') || exit;
                     <li><span class="fa-li"><i class="fas fa-envelope"></i></span> <a
                             href="mailto:<?=get_field('contact_email', 'options')?>"><?=get_field('contact_email', 'options')?></a>
                     </li>
-                    <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> <a
-                            href="<?=get_field('google_directions', 'options')?>"
-                            target="_blank"><?=get_field('contact_address', 'options')?></a>
-                    </li>
+                    <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span><?=get_field('contact_address', 'options')?></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-lg-3 mb-2 order-4 order-lg-3">
