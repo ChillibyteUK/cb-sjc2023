@@ -117,9 +117,8 @@ form .wpcf7-response-output {
 .gfield textarea.large { height: 200px !important; }
 
 body .gform_wrapper .gform_footer button {
-    // @extend .btn;
-    @extend .button__link;
-    // @extend .btn-primary;
+    @extend .wp-block-button__link;
+    border: none;
 }
 
 .gfield_checkbox,
