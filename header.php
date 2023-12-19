@@ -85,19 +85,19 @@ if (is_front_page()) {
         {
             "@context": "http://schema.org",
             "@type": "Organization",
-            "name": "---",
+            "name": "St James's Square Capital",
             "url": "https://www.stjamess-capital.com/",
-            "logo": "https://www.stjamess-capital.com/wp-content/theme/cb-sjc2023/img/sjc-logo.png",
-            "description": "...",
+            "logo": "https://www.stjamess-capital.com/wp-content/themes/cb-sjc2023/img/sjc-logo.svg",
+            "description": "Your London-based real estate capital advisory team.",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "---",
-                "addressLocality": "---",
-                "addressRegion": "---",
-                "postalCode": "--- ---",
+                "streetAddress": "141a Randolph Avenue",
+                "addressLocality": "London",
+                "addressRegion": "England",
+                "postalCode": "W9 1DN",
                 "addressCountry": "UK"
             },
-            "telephone": "+44 (0) ---- ------",
+            "telephone": "+44 (0) 7939 254946",
             "email": "hello@stjamess-capital.com"
         }
         }
@@ -119,7 +119,7 @@ do_action('wp_body_open');
                 <div class="button-container d-md-none">
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                        aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i>
+                        aria-label="Toggle navigation"><i class="text-white fa-solid fa-bars"></i>
                     </button>
                 </div>                
                 <div class="collapse navbar-collapse" id="navbar">
